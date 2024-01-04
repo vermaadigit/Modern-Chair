@@ -143,3 +143,31 @@ img-wrap {
     opacity: 1;
     animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
+
+.img-wrap.chair-4 {
+    background-image: url(Images/chair4.png);
+}
+
+.for-color-4:checked ~ .img-wrap.chair-4 {
+    opacity: 1;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both
+}
+
+.img-wrap.chair-5 {
+    background-image: url(Images/chair5.png);
+}
+
+.for-color-5:checked ~ .img-wrap.chair-5 {
+    opacity: 1;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both
+}
+
+.img-wrap.chair-6 {
+    background-image: url(Images/chair6.png);
+}
+
+.for-color-6:checked ~ .img-wrap.chair-6 {
+    opacity: 1;
+    animation: shake 0.7s cubic-bezier(0.36, 0.07, 0.19, 0.97) both
+}
+

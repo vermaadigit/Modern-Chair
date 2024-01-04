@@ -36,3 +36,26 @@ p{
     width: 100%;
     overflow: hidden;
 }
+
+.section{
+    position: relative;
+    max-width: calc(100% - 40px);
+    width: 860px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.section-fluid{
+    position: relative;
+    width: 100%;
+    display: block;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    visibility: hidden;
+}
+

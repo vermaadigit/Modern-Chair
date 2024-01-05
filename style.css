@@ -378,6 +378,11 @@ h5 {
     margin-top: 50px;
 }
 
+.icon {
+    padding-right: 7px;
+    font-size: 20px;
+}
+
 .btn::before {
     position: absolute;
     top: 0;
@@ -390,5 +395,23 @@ h5 {
     transition: background-color 250ms 300ms ease;
 }
 
+.btn:hover{
+    box-shadow: 0 12px 35px 0 rgba(16, 39, 112, 0.25);
+    background-color: #333;
+}
 
-
+.for-color-2:checked ~ .info-wrap .btn::before {
+    background-color: #1a1a1a;
+}
+.for-color-3:checked ~ .info-wrap .btn::before {
+    background-color: #1a1a1a;
+}
+.for-color-4:checked ~ .info-wrap .btn::before {
+    background-color: #1a1a1a;
+}
+.for-color-5:checked ~ .info-wrap .btn::before {
+    background-color: #1a1a1a;
+}
+.for-color-6:checked ~ .info-wrap .btn::before {
+    background-color: #1a1a1a;
+}
